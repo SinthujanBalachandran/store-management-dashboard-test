@@ -339,6 +339,25 @@ h5 {
     padding: 15px;
 }
 
+.sales--value{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.target,.current{
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+
+}
+.target .circle{
+    margin-right: 5px;
+    color: rgba(59, 197, 154, 1);
+}
+.current .circle{
+    margin-right: 5px;
+    color: rgba(153, 102, 255, 1);
+}
 .target--vs--sales {
     width: auto;
     max-height: 200px;
@@ -476,4 +495,8 @@ th {
         
     }
     .chat{display: none;}
+
+    .sales--value span{
+display: none;
+    }
 }
